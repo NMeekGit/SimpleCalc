@@ -19,29 +19,35 @@ int main() {
 		switch (op){
 			case '+':
 				ans = num1 + num2;
+				break;
 			case '-':
 				ans = num1 - num2;
+				break;
 			case '*':
 				ans = num1 * num2;
+				break;
 			case '/':
 				if (num2 == 0) {
 					cout << "Error: Division by Zero" << endl;
 					break;
 				}
 				ans = num1 / num2;
+				break;
 			case '$':
 				ans = sqrt(num1);
+				break;
 			case '^':
 				ans = pow(num1,num2);
+				break;
 			default:
 				cout << "Incorrect operator recieved. Please use +,-,*,/,'sqrt','pow'" << endl;
-		
+				break;
+		}
 		cout << "Answer: " << ans << endl;
 
 		cout << "Continue? [y]es [n]o:";
 		cin >> q;
-		if (q == 'y') quit = true;
-		}
+		if (q == 'n') quit = true;
 	}	
 
 	return 0;
