@@ -11,5 +11,5 @@ CXXFLAGS = -Wall -g -std=c++11
 CXXOUT = -o SimpleCalc
 
 # Main compilation
-SimpleCalc: SimpleCalc.cpp
+SimpleCalc: src/SimpleCalc.cpp
 		$(CXX) $(CXXOUT) $(CXXFLAGS) $^
