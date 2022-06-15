@@ -20,5 +20,5 @@ Current use cases are:
 
 For square root and power usage, type 'sqrt' or 'pow' after first number.
 - i.e.
-    - 1 sqrt
-    - 2 pow 2
+    - 1 $
+    - 2 ^ 2
